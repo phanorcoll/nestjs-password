@@ -8,8 +8,10 @@ export class AuthService {
   async validateUser(username: string, pass: string): Promise<any> {
     const user = await this.usersService.findOne(username);
     if (user && user.password === pass) {
+      //strips the password property from the user object
+      //by using the spread operator
       const { password, ...result } = user;
-      return result;
+      return result
     }
     return null;
   }

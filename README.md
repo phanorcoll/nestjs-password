@@ -8,7 +8,7 @@
 <p align="center">- NPDM -</p>
 
 ## Description
-Implementation of Nestjs with Password, using Mongo db for data handling and Docker compose to orchestrate containers.
+Implementation of Nestjs with Passport for user Authentication, using Mongo db for data handling and Docker compose to orchestrate containers.
 
 ## Installation
 

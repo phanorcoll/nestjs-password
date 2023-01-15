@@ -1,3 +1,6 @@
+//WARNING:
+//This tokens should be stored in environment variables, key vaults, etc
 export const jwtConstants = {
-  secret: 'secretKey', //this must go in a env variable,etc, for production
-}
+  secret: 'kDzqoO9yHBzHbhKUyOQie5cvjk98eSAjteHuH3vPTPkStV+PT9qoH1QisUhpmzo4t99SxNbpCxxoO8UmE7Tod5LnFJOll1qhqP1z0qMNhKNt09abr8bsbGUc21t6TiOmw7U3VNhLRhfyw4W5jq+DaIAAaPH43UJSz49cxGEl48h9SDmlkqIDao4NMx98jsqGns+vF9IEC/llBUTkb4bW00pLvwlRlx8QKaff7DtWQXTsXL7PNkmWY9N+uQmryVTstEvpzk+ukT8FeV1DtHZlTGYR5EWP5bBAUlYXdqIHSjpuzRW5gomMrNK7ZaF61qIZaJoBmsMV1CHD+xRYD3tiRA==',
+  refresh_token: 'cJTrUozuX9fPYPEHkUH+4RnieNVX4mnsnh+nIZ4cWZ5Rp2pv+EMojayVfb3nIXtNcfL2Oe5HiUCK9W+Rm9MXCLFcI9OOg+2hLI8T6gq8s1qPA/pcbAcj0BjNjX7xphqt6w+GbOeNVRdj8DGQqZS2DbjG7byq8sk4lz5Un54PCZ/mjyGkeDAeEXCQhsOWHHLhct5+BcaL8xAk68zHQFPxr6g3PINTL9hGmFrLyMk/TPwIsa9eHh6Ra26mTNQ1YjWahj/W7kXVxcWdOh7XI3qx4/rrSL240m6hzNwQWjd7/zQYTCxeSyxjXKyXMLgLibCHtrxQuJWDqc63Cg43w3RchA==',
+};
